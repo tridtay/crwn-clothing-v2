@@ -2,15 +2,6 @@ import { Outlet } from "react-router-dom";
 
 import Directory from "../../components/directory/directory.component";
 
-const Navigation = () => {
-  return (
-    <div>
-      <div>
-        <h1>I am navigation bar</h1>
-      </div>
-    </div>
-  );
-};
 
 const Home = () => {
   const categories = [
